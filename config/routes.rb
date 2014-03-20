@@ -1,6 +1,5 @@
 Omrails::Application.routes.draw do
-  get "home/index"
-  root  'static_pages#home'
+ root  'home#index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
