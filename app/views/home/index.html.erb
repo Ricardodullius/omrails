@@ -1,17 +1,12 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
+<div class="jumbotron">
+		<h1>Welcome To My World \o/</h1>
+		<p>
+			This is the start of a revolution
+			<%= link_to "One Month Rails", "http://onemonthrails.com" %>
+			application.
+		</p>
+		<p>
+			<%= link_to "Sign up", "#", class: "btn btn-primary btn-lg" %>
 
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Omrails</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
-  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
-
-<%= yield %>
-
-</body>
-</html>
+		</p>
+</div>
